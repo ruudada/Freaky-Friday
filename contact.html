@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body{
+            background-color: white;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        } 
+        * {box-sizing: border-box;}
+        </style>
+</head>
+<body>
+    <div class="header">
+        <a href="Index.html" class="logo">DogAdopt</a>
+         <div class="header-right">
+            <a href="Index.html">Home</a>
+            <a href="about.html">Breeds</a>
+            <a class="active" href="contact.html">Contact</a>
+         </div>
+      </div> 
+
+      <div class="introduction">
+        <h2> Contact us!</h2>
+        <p>Please contact us if you have any questions about adoption or different breeds. We will try our best to satisfy you! 
+          </p>
+          <img src="Images/dogs.jpg" alt="dogs" height="200" width="300" style="border-radius: 40%;">
+      </div>   
+
+    <!--Tutorial from: https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+      <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="norway">Norway</option>
+      <option value="sweden">Sweden</option>
+      <option value="denmark">Denmark</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+      <div class="footer">
+        <footer>Contact: dogadopt@gmail.com</footer>
+    </div>
+</body>
+</html>
